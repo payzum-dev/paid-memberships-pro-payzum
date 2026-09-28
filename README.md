@@ -43,10 +43,22 @@ PCI surface.
 
 ## Installation
 
-Upload the `payzum-pmpro` folder to `/wp-content/plugins/` (or install the zip
-via **Plugins → Add New → Upload**), then activate it (requires Paid
-Memberships Pro). The official
-[`payzum/payzum-php`](https://packagist.org/packages/payzum/payzum-php) SDK is
+**From the release zip (recommended).** Download
+[`payzum-pmpro-1.3.0.zip`](https://github.com/payzum-dev/paid-memberships-pro-payzum/releases/latest), then in WordPress go to
+**Plugins → Add New → Upload Plugin**, pick the zip and activate it (requires Paid Memberships Pro). The archive unpacks to
+`payzum-pmpro/`, the folder name WordPress expects.
+
+**From a clone.** This repository *is* the plugin, so its contents must land in a folder named
+`payzum-pmpro`:
+
+```bash
+git clone https://github.com/payzum-dev/paid-memberships-pro-payzum.git payzum-pmpro
+mv payzum-pmpro /path/to/wp-content/plugins/
+```
+
+Do not drop the repository in as `paid-memberships-pro-payzum` — WordPress keys the plugin off the folder name.
+
+The official [`payzum/payzum-php`](https://packagist.org/packages/payzum/payzum-php) SDK is
 vendored, so no composer step is needed.
 
 ## Configuration
