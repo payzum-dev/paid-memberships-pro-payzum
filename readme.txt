@@ -4,7 +4,7 @@ Tags: paid-memberships-pro, pmpro, membership, cryptocurrency, stablecoin
 Requires at least: 5.6
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -118,6 +118,10 @@ A level whose initial payment is 0 is completed immediately without calling the 
 No. Enter your API key and webhook secret and you are live.
 
 == Changelog ==
+
+= 1.3.1 =
+* Plugin URI now points at the plugin's own repository, so it differs from the Author URI as
+  the plugin directory requires. No functional change.
 
 = 1.3.0 =
 * The settled amount and currency are verified against the order's initial payment before the level

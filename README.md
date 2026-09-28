@@ -44,7 +44,7 @@ PCI surface.
 ## Installation
 
 **From the release zip (recommended).** Download
-[`payzum-pmpro-1.3.0.zip`](https://github.com/payzum-dev/paid-memberships-pro-payzum/releases/latest), then in WordPress go to
+[`payzum-pmpro-1.3.1.zip`](https://github.com/payzum-dev/paid-memberships-pro-payzum/releases/latest), then in WordPress go to
 **Plugins → Add New → Upload Plugin**, pick the zip and activate it (requires Paid Memberships Pro). The archive unpacks to
 `payzum-pmpro/`, the folder name WordPress expects.
 
